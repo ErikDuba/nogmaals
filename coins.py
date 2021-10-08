@@ -1,18 +1,18 @@
 # name of student: Erik Duba
-# number of student: 
-# purpose of program: 
-# function of program:
-# structure of program: 
+# number of student: 99068765
+# purpose of program: Calculate how much change there is left to be paid
+# function of program: It calculates how much change there is left to be paid
+# structure of program: Asks some inputs and goes to work with those inputs
 
 toPay = int(float(input('Amount to pay: ')) * 100) #
 paid = int(float(input('Paid amount: ')) * 100) #
-change = paid - toPay #
+change = paid - toPay #change = paid - toPay
 
-if change > 0: #
-  coinValue = 50 #
+if change > 0: #if change is more than 0:
+  coinValue = 50 #coinValue will be set equal to 50
   
-  while change > 0 and coinValue > 0: #
-    nrCoins = change // coinValue #
+  while change > 0 and coinValue > 0: #if change and coinValue are both bigger than 0:
+    nrCoins = change // coinValue #nrCoins will be change divided by coinValue
 
     if nrCoins > 0: #
       print('return maximal ', nrCoins, ' coins of ', coinValue, ' cents!' ) #
