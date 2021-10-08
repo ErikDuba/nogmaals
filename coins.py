@@ -1,10 +1,10 @@
-# name of student: 
-# number of student:
+# name of student: Erik Duba
+# number of student: 
 # purpose of program: 
 # function of program:
 # structure of program: 
 
-toPay = int(float(input('Amount to pay: '))* 100) #
+toPay = int(float(input('Amount to pay: ')) * 100) #
 paid = int(float(input('Paid amount: ')) * 100) #
 change = paid - toPay #
 
