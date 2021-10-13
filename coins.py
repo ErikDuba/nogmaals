@@ -16,7 +16,7 @@ if change > 0: #if change is more than 0:
 
     if nrCoins > 0: #if nrCoins is bigger than 0:
       print('return maximal ', nrCoins, ' coins of ', coinValue, ' cents!' ) #it will print the maximal amount of 50cent coins
-      nrCoinsReturned = int(input('How many coins of ' + str(coinValue) +  ' cents did you return? ')) #
+      nrCoinsReturned = int(input('How many coins of ' + str(coinValue) +  ' cents did you return? ')) #it will ask an input and tie the input to the variable nrCoinsReturned
       change -= nrCoinsReturned * coinValue #it subtracts the right operand from the left operand and assignes the result to the left operand
 
 # comment on code below: each coin value will be assinged a value
