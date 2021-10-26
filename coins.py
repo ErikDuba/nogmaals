@@ -15,7 +15,7 @@ if change > 0: #if change is more than 0:
     nrCoins = change // coinValue #nrCoins will be equal to change divided by coinValue
 
     if nrCoins > 0: #if nrCoins is bigger than 0:
-      print('return maximal ', nrCoins, ' coins of ', coinValue, ' cents!' ) #it will print the maximal amount of 50cent coins
+      print('return maximum ', nrCoins, ' coins of ', coinValue, ' cents!' ) #it will print the maximal amount of 50cent coins
       nrCoinsReturned = int(input('How many coins of ' + str(coinValue) +  ' cents did you return? ')) #it will ask an input and tie the input to the variable nrCoinsReturned
       change -= nrCoinsReturned * coinValue #it subtracts the right operand from the left operand and assignes the result to the left operand
 
@@ -33,7 +33,7 @@ if change > 0: #if change is more than 0:
     else:
       coinValue = 0
 
-if change > 0: #if change is bigger than 0 it will print the remaining amount of cents you have left to 'pay'
+if change > 0: #if change is bigger than 0 it will print the remaining amount of cents you have left to return
   print('Change not returned: ', str(change) + ' cents')
 else:
   print('done')
